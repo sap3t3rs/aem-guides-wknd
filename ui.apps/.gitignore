@@ -3,3 +3,7 @@
 src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-site
 src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-dependencies
 
+### IntelliJ ###
+.idea/
+*.iml
+.repo

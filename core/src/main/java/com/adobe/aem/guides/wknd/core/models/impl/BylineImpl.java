@@ -77,7 +77,7 @@ public class BylineImpl implements Byline {
 
     @Override
     public String getName() {
-        return name;
+        return name + " (a change from the Sling Model)";
     }
 
     @Override

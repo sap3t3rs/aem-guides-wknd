@@ -64,7 +64,7 @@ class BylineImplTest {
 
 	@Test
 	public void testGetName() {
-       final String expected = "Jane Doe";
+       final String expected = "Jane Doe (a change from the Sling Model)";
 
        ctx.currentResource("/content/byline");
        Byline byline = ctx.request().adaptTo(Byline.class);
